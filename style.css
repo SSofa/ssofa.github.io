@@ -5,7 +5,7 @@ margin: 20px auto;
 font-family: Garamond;
 font-size: 7em;
 text-transform: uppercase;
-color: #fff;
+  color: #fff;}
 p {background-color: #eee;
 text-align: left;
 padding: 10px 0 50px 35px;
@@ -13,5 +13,5 @@ margin: 20px auto;
 font-family: Arial;
 font-size:7em;
 text-transform: uppercase;
-color: #fff;
+  color: #fff;}
 d {font-size: 4em; text-shadow:3px 3px 10px red,-3px -3px 10px yellow;color: #101921;}
