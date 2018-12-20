@@ -118,13 +118,11 @@ font-family: Garamond;
 font-size: 7em;
 text-transform: uppercase;
   color: #fff;}
-p {background-color: #eee;
-        text-align: left;
-        padding: 10px 0 50px 35px;
+p {background-color: #474747;
         margin: 20px auto;
-        font-family: Arial;
-        font-size:7em;
+        font-family: Helvetica;
+        font-size: 7em; 
         text-transform: uppercase;
-        color: #fff;
-        text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff, 30px 30px 0 #ffd217, 40px 40px 0 #5ac7ff;}
+        color: #222;
+        text-shadow: 0px 2px 3px #666;}
 d {font-size: 4em; text-shadow:3px 3px 10px red,-3px -3px 10px yellow;color: #101921;}
