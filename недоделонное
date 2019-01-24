@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>canvasExample</title>
+        <meta charset='utf-8' />
+	</head>
+	<body>
+		<canvas height='480' width='480' id='example'>Обновите браузер</canvas>
+		<script>
+var canvas = document.getElementById('example');
+var ctx = canvas.getContext('2d');
+ctx.beginPath();
+ctx.moveTo(240,0);
+ctx.lineTo(240 ,480);
+ctx.stroke();
+ctx.moveTo(0,240);
+ctx.lineTo(480,240);
+ctx.stroke();
+ctx.arc(240,240 , 10, 0, 2 * Math.PI);
+ctx.arc(240,240 , 40, 0, 2 * Math.PI);
+ctx.arc(240,240 , 70, 0, 2 * Math.PI);
+ctx.stroke();	
+    </script>
+	</body>
+</html>
