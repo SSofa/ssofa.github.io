@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style2">
+  <link rel="stylesheet" href="style2.css">
   <script>
     
     function func1() {
@@ -22,24 +22,23 @@
       } while (i < n);
     }
 
-    function func3() {
-      var a = Number(document.getElementById("a_f3_znach").value);
-      
-     do {
+ function func3() {
+      a = Number(document.getElementById("a_f3_znach").value);
+      for (;a<50;) {
         document.getElementById("otvet3").innerHTML = document.getElementById("otvet3").innerHTML + a*a*a + "<br>";
         a++;
-        } while (a < 50)
+        } 
       }
       
-      function func4() {
-     var  a = Number(document.getElementById("a_f4_znach").value);
-      var b = Number(document.getElementById("b_f4_znach").value);
-    
-     do {
+      
+     function func4() {
+      a = Number(document.getElementById("a_f4_znach").value);
+       b = Number(document.getElementById("b_f4_znach").value);
+      for(;a<b;) {
         document.getElementById("otvet4").innerHTML = document.getElementById("otvet4").innerHTML + a + "<br>";
         a++;
-        } while (a <= b)
-      }
+      } 
+    }
 
   
   </script>
@@ -49,8 +48,9 @@
 
 
   <h1>Цикл а</h1>
+	<a href="#" onclick="func1()" class="button tick"></a>
     <div id="otvet1"></div>
-  <a href="#" onclick="func1()" class="action-button shadow animate blue">1</a>
+  
 
   <br>
   <br>
@@ -60,7 +60,7 @@
   <input type="text" value="0" id="n_f2_znach">
   <div id="otvet2"></div>
   <br>
-  <a href="#" onclick="func2()" class="action-button shadow animate red">2</a>
+  <a href="#" onclick="func2()" class="button cross"></a>
   <br>
   <br>
   <br>
@@ -69,18 +69,18 @@
   <input type="text" value="0" id="a_f3_znach">
   <div id="otvet3"></div>
   <br>
-  <a href="#" onclick="func3()" class="action-button shadow animate yellow">3</a>
+  <a href="#" onclick="func3()" class="button heart"></a>
   <br>
   <br>
   <br>
   <br>
   <h1>Цикл г</h1>  a=
-  <input type="text" value="0" id="a_f4_znach">
+  <input type="text" value="2" id="a_f4_znach">
   b=
-  <input type="text" value="0" id="b_f4_znach">
+  <input type="text" value="16" id="b_f4_znach">
   <div id="otvet4"></div>
   <br>
-  <a href="#" onclick="func4()" class="action-button shadow animate green">4</a>
+  <a href="#" onclick="func4()" class="button flower"></a>
   <br>
   <br>
   <br>
