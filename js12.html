@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function func1() {
+      var n;
+      var i = 0;
+      var S = 0
+      while (n != 0) {
+        n = Number(prompt('Введите n', 69));
+        S = S + n;
+        i++;
+      }
+      document.getElementById("otvet1").innerHTML = document.getElementById("otvet1").innerHTML + i + " " + S + "<br>";
+
+    }
+  </script>
+</head>
+
+<body>
+
+  <h1>Цикл a</h1>
+  <div id="otvet1"></div>
+  <br>
+  <a href="#" onclick="func1()" class="button cross"></a>
+    <br>
+  <br>
+  <br>
+  <br>
+ </body>
+</html>
